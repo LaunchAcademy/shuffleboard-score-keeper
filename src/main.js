@@ -1,15 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-import Game from './components/Game'
-
-var App = React.createClass({
-  render: function() {
-    return (
-      <Game />
-    )
-  }
-});
+import App from './App'
 
 ReactDOM.render(
   <App />,
